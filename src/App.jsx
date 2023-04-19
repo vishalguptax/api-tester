@@ -199,7 +199,7 @@ function App() {
           />
           <div className="flex items-center justify-around w-full mt-6 text-xl">
             <div>
-             💥 Status :
+              💥 Status :
               <span
                 className={` ${
                   response?.status == (200 || 202 || 201 || 204)
@@ -212,12 +212,23 @@ function App() {
               </span>
             </div>
             <div>
-             📧 Message :<span> {response?.data?.message}</span>
+              📧 Message :<span> {response?.data?.message}</span>
             </div>
           </div>
           {/* <button onClick={() => setShowModal(true)}>Modal</button> */}
         </div>
       </div>
+      <footer className="w-full text-center py-2">
+        © {new Date().getFullYear()} All Rights Reserved | Made by{" "}
+        <a
+          href="https://www.linkedin.com/in/vishalgupta26/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-purple-200"
+        >
+          Vishal Gupta
+        </a>
+      </footer>
     </div>
   );
 }
