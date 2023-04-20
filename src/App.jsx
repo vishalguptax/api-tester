@@ -67,7 +67,7 @@ function App() {
       </h1>
       <p className="text-center py-1 px-6 text-gray-800 lg:w-max mx-4 lg:mx-auto  bg-blue-200 rounded lg:rounded-full">
         Enter the URL of an API endpoint below, along with any optional
-        parameters, and click "Submit" to send a request and view the response.
+        parameters, and click "Fetch" to send a request and view the Response.
       </p>
       <div className="container mx-auto my-5 flex flex-col lg:flex-row items-center justify-between gap-6 px-4 lg:px-6">
         <Form
