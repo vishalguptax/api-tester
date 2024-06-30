@@ -3,7 +3,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("https://source.unsplash.com/random/1920×1080/?desktop-wallpaper");
+  background-image: url("/bg.png");
 }
 
 .App {
